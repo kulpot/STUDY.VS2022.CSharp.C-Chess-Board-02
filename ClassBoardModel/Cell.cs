@@ -8,7 +8,12 @@ namespace ClassBoardModel
 {
     class Cell
     {
+        //---------START--------- C# Chess Board 02 board cell classes -------------------------------
         public int RowNumber { get; set; }
         public int ColumnNumber { get; set; }
+        public bool CurrentlyOccupied { get; set; }
+        public bool LegalNextMove { get; set; }
+        //---------END--------- C# Chess Board 02 board cell classes -------------------------------
+
     }
 }
