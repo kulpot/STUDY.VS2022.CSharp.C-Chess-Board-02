@@ -25,7 +25,7 @@ namespace ClassBoardModel
             {
                 for (int j = 0; j < Size; j++)
                 {
-                    theGrid
+                    theGrid[i, j] = new Cell(i, j);
                 }
             }
         }
